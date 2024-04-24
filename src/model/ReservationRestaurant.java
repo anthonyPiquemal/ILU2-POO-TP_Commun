@@ -1,8 +1,6 @@
 package model;
 
-public class ReservationRestaurant{
-	int jour;
-	int mois;
+public class ReservationRestaurant extends Reservation{
 	int numService;
 	int numTable;
 
