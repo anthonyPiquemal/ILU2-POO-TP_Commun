@@ -1,7 +1,5 @@
 package model;
 
-import model.CalendrierAnnuel;
-
 public class ReservationRestaurant{
 	int jour;
 	int mois;
@@ -13,8 +11,6 @@ public class ReservationRestaurant{
 		this.mois = mois;
 		this.numService = numService;
 		this.numTable = numTable;
-		
-		
 	}
 	
 	public String toString() {
@@ -25,5 +21,4 @@ public class ReservationRestaurant{
 			service = "deuxième";
 		return("Le " + jour + "/" + mois + "\nTable " + numTable + " pour le " + service + " service.");
 	}
-
 }

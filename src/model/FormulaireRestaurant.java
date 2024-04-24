@@ -1,7 +1,6 @@
- 	package model;
+package model;
 
-public class FormulaireRestaurant {
-	
+public class FormulaireRestaurant {	
 	int jour;
 	int mois;
 	int nombrePersonnes;
@@ -54,4 +53,4 @@ public class FormulaireRestaurant {
 	public void setNumService(int numService) {
 		this.numService = numService;
 	}
-}
+	}
